@@ -1,0 +1,11 @@
+<div class="enregistrer">
+    <h2>{{enregistrementTitre}}</h2>
+    <p>Категория: <strong>{{categori}}</strong></p>
+    <p>Автор: <strong>{{auteur}}</strong></p>
+    <p>{{contenu}}</p>
+  
+    <form>
+      <button (click)="d_l_Eregistrement(this.id)" type="submit" id="deletebtn"><p>Удалить</p></button>
+      <button (click)="f_R_Archive(this.id)" type="submit" id="archivebtn"><p>Архив</p></button>
+    </form>
+</div>

@@ -1,0 +1,13 @@
+footer{
+    flex: 0 1 100%;
+    margin-top: 30px;
+}
+.footer{
+    margin: 5px 20px 0;
+}
+.foot{
+    background-color: #000000;
+    margin: 0 15px;
+    height: 2px;
+    border: 0;
+}
