@@ -38,11 +38,15 @@ export class EnregistrementService {
     }
   }
 
- 
-  
   f_R_Archive(id: number)
   {
-
+    const index = this.archives.findIndex(enreg => enreg.id===id);
+    const enreg = this.archives.find(erg => erg.id===id)
+    this.archives.push(enreg?.enregistrementTitre);
+    
+    if (index!==-1) {
+      this.archives.splice(index,1)
+    }
   }
 
 
