@@ -45,7 +45,7 @@ export class EnregistrementService {
     this.archives.push(enreg?.enregistrementTitre);
     
     if (index!==-1) {
-      this.archives.splice(index,1)
+      this.archives.push(enreg)
     }
   }
 
