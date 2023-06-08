@@ -42,15 +42,6 @@ export class EnregistrementService {
   
   f_R_Archive(id: number)
   {
-    const index = this.enregs.findIndex(enreg => enreg.id===id );
-
-    const enreg = this.enregs.find(erg => erg.id===id)
-    
-    
-    if(index!==-1)
-    {
-      this.archives.push(enreg?.enregistrementTitre);
-    }
 
   }
 
