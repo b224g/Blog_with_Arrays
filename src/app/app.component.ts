@@ -2,14 +2,7 @@ import { Component } from '@angular/core';
 import { EnregistrementService } from './services/enregistrement-service.service';
 
 export class Enregistrer{
-  constructor(
-    public id:number,
-    public auteur: string,
-    public enregistrementTitre: string,
-    public categori: string,
-    public contenu: string
-
-  ){}
+ 
 }
 
 @Component({
