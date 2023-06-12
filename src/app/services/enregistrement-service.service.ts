@@ -38,6 +38,7 @@ export class EnregistrementService {
     }
   }
 
+  
   f_R_Archive(id: number)
   {
     const index = this.archives.findIndex(enreg => enreg.id===id);
